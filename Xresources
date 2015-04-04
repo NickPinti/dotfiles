@@ -1,0 +1,17 @@
+! Eliminate the scrollbar in urxvt
+URxvt.scrollBar: false
+
+! Enable buffering for urxvt
+URxvt.buffered: true
+
+! Set the title for urxvt
+URxvt.title: rxvt
+
+! Set font in urxvt
+URxvt.font: xft:DejaVu Sans Mono:antialias=tru:pixelsize=10
+URxvt.letterSpace: -1
+
+! Set urxvt colours for base16 colour scheme
+! All colours are set using base16-shell, but the command below is required
+! to remove the white border that appears in urxvt
+*.background:  #181818
